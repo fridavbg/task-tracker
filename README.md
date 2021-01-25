@@ -9,6 +9,6 @@ Install dependencies.
 
 `npm install`
 
-Run Server.
+Run React dev server.
 
 `npm start`
