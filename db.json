@@ -5,6 +5,12 @@
       "day": "esy",
       "reminder": true,
       "id": 3
+    },
+    {
+      "text": "1",
+      "day": "1",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

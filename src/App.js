@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-import AddTask from "./components/AddTask";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Tasks from "./components/Tasks";
+import AddTask from "./components/AddTask";
 
-function App() {
+const App = () => {
 	const [showAddTask, setShowAddTask] = useState(false);
 	const [tasks, setTasks] = useState([]);
 
@@ -70,6 +71,7 @@ function App() {
 			)
 		);
 	};
+
 	return (
 		<div className="container">
 			<Header
@@ -84,8 +86,9 @@ function App() {
 			) : (
 				"No tasks to do"
 			)}
+			<Footer />
 		</div>
 	);
-}
+};
 
 export default App;
